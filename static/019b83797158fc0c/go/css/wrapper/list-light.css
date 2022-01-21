@@ -242,7 +242,7 @@ form { display: none }
 }
 
 #buttons>:nth-child(3)::before {
-	content: '\E182';
+	content: '\270F';
 }
 
 #date {

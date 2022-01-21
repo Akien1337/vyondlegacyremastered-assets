@@ -1815,7 +1815,7 @@ th {
 }
 
 .table-hover>tbody>tr:hover {
-	background-color: #f5f5f5
+	background-color: #000
 }
 
 table col[class*="col-"] {
@@ -1843,7 +1843,7 @@ table th[class*="col-"] {
 .table>thead>tr.active>th,
 .table>tbody>tr.active>th,
 .table>tfoot>tr.active>th {
-	background-color: #f5f5f5
+	background-color: #000
 }
 
 .table-hover>tbody>tr>td.active:hover,
@@ -10561,7 +10561,7 @@ legend {
 }
 
 .table-hover>tbody>tr:hover {
-	background-color: #f5f5f5
+	background-color: #111
 }
 
 .table-hover .dimmed {
@@ -11195,7 +11195,7 @@ hr.compact {
 a.link-secondary,
 .table-generic a,
 .breadcrumb a {
-	color: #474747
+	color: #fff
 }
 
 a.link-secondary:hover,
@@ -11332,6 +11332,13 @@ h6 .small,
 .btn-default {
 	color: #576a75;
 	background-color: #fff;
+	border-color: #576a75;
+	border: 1px solid #576a75
+}
+
+.btn-gray {
+	color: #576a75;
+	background-color: #888;
 	border-color: #576a75;
 	border: 1px solid #576a75
 }
@@ -12109,7 +12116,7 @@ fieldset[disabled] .btn {
 	border-top: 1px solid #1e1e1e;
 	color: #e7e7e7;
 	text-align: center;
-	height: 40px;
+	height: 41px;
 	font-size: 14px;
 	line-height: 40px;
 	position: absolute;
