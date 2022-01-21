@@ -32,4 +32,3 @@ listReq.onreadystatechange = function (e) {
 function popup(id) {
 	window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 }
-	
